@@ -39,8 +39,7 @@ export const TerminalFooter = () => {
             case "contact":
                 response = (
                     <div className="flex flex-col gap-1">
-                        <div>Output: <a href="mailto:devarasetty.s@northeastern.edu" className="underline hover:text-white transition-colors">devarasetty.s@northeastern.edu</a></div>
-                        <div className="text-muted-foreground">Phone: (617) 259-5551</div>
+                        <div className="text-muted-foreground">devarasetty[dot]s[at]northeastern[dot]edu</div>
                     </div>
                 );
                 break;

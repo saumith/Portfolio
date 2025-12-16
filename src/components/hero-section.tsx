@@ -22,10 +22,10 @@ export const HeroSection = () => {
                         />
                         <div className="flex flex-wrap gap-4 text-sm font-mono text-muted-foreground">
                             <span className="flex items-center gap-2"><MapPin className="w-4 h-4" /> Boston, MA</span>
-                            <span className="flex items-center gap-2"><Phone className="w-4 h-4" /> (617) 259-5551</span>
-                            <a href="mailto:devarasetty.s@northeastern.edu" className="flex items-center gap-2 hover:text-primary transition-colors">
-                                <Mail className="w-4 h-4" /> devarasetty.s@northeastern.edu
-                            </a>
+                            <span className="flex items-center gap-2"><MapPin className="w-4 h-4" /> Boston, MA</span>
+                            <span className="flex items-center gap-2 text-muted-foreground/80 cursor-not-allowed">
+                                <Mail className="w-4 h-4" /> devarasetty[dot]s[at]northeastern[dot]edu
+                            </span>
                         </div>
                         <div className="flex gap-4 mt-4">
                             <a href="https://github.com/saumith" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-4 py-2 bg-white/5 rounded border border-white/10 hover:bg-white/10 transition-colors cursor-pointer">

@@ -22,7 +22,6 @@ export const HeroSection = () => {
                         />
                         <div className="flex flex-wrap gap-4 text-sm font-mono text-muted-foreground">
                             <span className="flex items-center gap-2"><MapPin className="w-4 h-4" /> Boston, MA</span>
-                            <span className="flex items-center gap-2"><MapPin className="w-4 h-4" /> Boston, MA</span>
                             <span className="flex items-center gap-2 text-muted-foreground/80 cursor-not-allowed">
                                 <Mail className="w-4 h-4" /> devarasetty[dot]s[at]northeastern[dot]edu
                             </span>

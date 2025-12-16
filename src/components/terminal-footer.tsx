@@ -120,7 +120,6 @@ export const TerminalFooter = () => {
                         onChange={(e) => setInput(e.target.value)}
                         onKeyDown={handleKeyDown}
                         className="bg-transparent border-none outline-none text-foreground flex-grow focus:ring-0 placeholder:text-muted-foreground/30"
-                        autoFocus
                         placeholder="contact --method email"
                         spellCheck={false}
                     />

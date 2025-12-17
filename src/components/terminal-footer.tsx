@@ -45,10 +45,10 @@ export const TerminalFooter = () => {
                 break;
             case "social":
                 response = (
-                    <div className="flex flex-col gap-1">
+                    <div className="flex flex-col gap-1 pl-4">
                         <div className="flex gap-2">Output: [Links]</div>
-                        <a href="https://github.com/saumith" target="_blank" rel="noopener noreferrer" className="text-secondary hover:underline pl-4">- GitHub</a>
-                        <a href="https://www.linkedin.com/in/saumith-devarasetty-8b58b71a7/" target="_blank" rel="noopener noreferrer" className="text-secondary hover:underline pl-4">- LinkedIn</a>
+                        <a href="https://github.com/saumith" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">GitHub</a>
+                        <a href="https://www.linkedin.com/in/saumith-devarasetty-8b58b71a7/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">LinkedIn</a>
                     </div>
                 );
                 break;
@@ -87,7 +87,7 @@ export const TerminalFooter = () => {
     }, [output]);
 
     return (
-        <footer className="w-full border-t border-white/10 bg-black/80 backdrop-blur-md pt-6 pb-12 mt-20">
+        <footer className="w-full border-t border-foreground/10 bg-surface/80 backdrop-blur-md pt-6 pb-12 mt-20">
             <div className="max-w-7xl mx-auto px-4 font-mono text-sm max-h-[300px] overflow-y-auto" ref={scrollRef}>
                 <div className="mb-4 text-muted-foreground text-xs">
                     Last login: {mounted ? new Date().toLocaleDateString() : "..."} on ttys001

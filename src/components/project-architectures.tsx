@@ -12,7 +12,7 @@ const activePathStyle = "stroke-primary/30 fill-none stroke-[1.5px] stroke-dasha
 
 // 1. Thoracic Disease Classification - Detailed Pipeline
 export const ThoracicDiagram = ({ color = "text-primary" }: { color?: string }) => (
-    <div className="w-full h-64 relative overflow-hidden rounded-xl bg-black/40 border border-white/10 my-8">
+    <div className="w-full h-64 relative overflow-hidden rounded-xl bg-surface/40 border border-foreground/10 my-8">
         <svg className="w-full h-full" viewBox="0 0 800 200">
             <defs>
                 <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
@@ -111,7 +111,7 @@ export const ThoracicDiagram = ({ color = "text-primary" }: { color?: string }) 
 
 // 2. EmoLingo Chatbot - Detailed NLP Diagram
 export const EmoLingoDiagram = ({ color = "text-secondary" }: { color?: string }) => (
-    <div className="w-full h-64 relative overflow-hidden rounded-xl bg-black/40 border border-white/10 my-8">
+    <div className="w-full h-64 relative overflow-hidden rounded-xl bg-surface/40 border border-foreground/10 my-8">
         <svg className="w-full h-full" viewBox="0 0 800 200">
             <defs>
                 <pattern id="grid-dots" width="20" height="20" patternUnits="userSpaceOnUse">
@@ -179,7 +179,7 @@ export const EmoLingoDiagram = ({ color = "text-secondary" }: { color?: string }
 
 // 3. Facial Recognition - Detailed Pipeline
 export const FacialRecDiagram = ({ color = "text-primary" }: { color?: string }) => (
-    <div className="w-full h-64 relative overflow-hidden rounded-xl bg-black/40 border border-white/10 my-8">
+    <div className="w-full h-64 relative overflow-hidden rounded-xl bg-surface/40 border border-foreground/10 my-8">
         <svg className="w-full h-full" viewBox="0 0 800 200">
             <defs>
                 <pattern id="grid-lines" width="40" height="40" patternUnits="userSpaceOnUse">

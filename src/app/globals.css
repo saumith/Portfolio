@@ -9,21 +9,47 @@
 }
 
 :root {
+  /* Default Dark Mode (Cyberpunk) */
   --background: #0a0a0a;
   --foreground: #ededed;
+  --primary: #00f0ff;
+  --primary-dark: #00a3cc;
+  --secondary: #bd00ff;
+  --secondary-dark: #8a00bc;
+  --surface: #111111;
+  --surface-hover: #1a1a1a;
+  --muted: #666666;
+}
+
+[data-theme='light'] {
+  /* Light Mode (Blueprint / High Contrast) */
+  --background: #f0f2f5;
+  --foreground: #1a1a1a;
+  --primary: #0066cc;
+  /* Darker blue for visibility on white */
+  --primary-dark: #004c99;
+  --secondary: #7c3aed;
+  /* Purple */
+  --secondary-dark: #5b21b6;
+  --surface: #ffffff;
+  --surface-hover: #f3f4f6;
+  --muted: #6b7280;
 }
 
 /* Scrollbar styling for Webkit */
 ::-webkit-scrollbar {
   width: 8px;
 }
+
 ::-webkit-scrollbar-track {
-  background: #0a0a0a; 
+  background: #0a0a0a;
 }
+
 ::-webkit-scrollbar-thumb {
-  background: #333; 
+  background: #333;
   border-radius: 4px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
-  background: #00f0ff; 
+  background: #00f0ff;
 }

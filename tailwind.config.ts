@@ -10,21 +10,21 @@ const config: Config = {
     theme: {
         extend: {
             colors: {
-                background: "#0a0a0a",
-                foreground: "#ededed",
+                background: "var(--background)",
+                foreground: "var(--foreground)",
                 primary: {
-                    DEFAULT: "#00f0ff", // Cyan
-                    dark: "#00a3cc",
+                    DEFAULT: "var(--primary)",
+                    dark: "var(--primary-dark)",
                 },
                 secondary: {
-                    DEFAULT: "#bd00ff", // Purple
-                    dark: "#8a00bc",
+                    DEFAULT: "var(--secondary)",
+                    dark: "var(--secondary-dark)",
                 },
                 surface: {
-                    DEFAULT: "#111111",
-                    hover: "#1a1a1a",
+                    DEFAULT: "var(--surface)",
+                    hover: "var(--surface-hover)",
                 },
-                muted: "#444444",
+                muted: "var(--muted)",
             },
             fontFamily: {
                 mono: ['var(--font-jetbrains-mono)', 'monospace'],

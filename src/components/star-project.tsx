@@ -43,7 +43,7 @@ export const StarProject = () => {
                             href="https://github.com/saumith/Automated-Due-Diligence-Market-Intelligence-Agent"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10 rounded hover:bg-white/10 transition-colors text-sm font-mono text-foreground/80"
+                            className="flex items-center gap-2 px-4 py-2 bg-surface/5 border border-foreground/10 rounded hover:bg-surface/10 transition-colors text-sm font-mono text-foreground/80"
                         >
                             <Github className="w-4 h-4" /> REPO
                         </a>
@@ -54,14 +54,14 @@ export const StarProject = () => {
                 </div>
 
                 {/* Architecture Diagram */}
-                <div className="xl:w-2/3 w-full relative bg-surface/30 rounded-xl border border-white/10 p-2 md:p-6 overflow-hidden backdrop-blur-sm">
+                <div className="xl:w-2/3 w-full relative bg-surface/30 rounded-xl border border-foreground/10 p-2 md:p-6 overflow-hidden backdrop-blur-sm">
                     <div className="absolute inset-0 bg-grid-pattern opacity-10" />
 
                     {/* Layers Container */}
                     <div className="relative z-10 grid grid-rows-5 gap-4 font-mono text-xs">
 
                         {/* Layer 1: Data Pipeline */}
-                        <div className="bg-black/40 border border-white/5 p-4 rounded flex flex-col md:flex-row items-center gap-4 relative overflow-hidden group hover:border-blue-500/30 transition-colors">
+                        <div className="bg-surface/40 border border-foreground/5 p-4 rounded flex flex-col md:flex-row items-center gap-4 relative overflow-hidden group hover:border-blue-500/30 transition-colors">
                             <div className="absolute left-0 top-0 bottom-0 w-1 bg-blue-500" />
                             <div className="w-32 font-bold text-blue-400 shrink-0">DATA PIPELINE</div>
                             <div className="flex-1 flex items-center justify-between w-full">
@@ -74,7 +74,7 @@ export const StarProject = () => {
                         </div>
 
                         {/* Layer 2: Model Pipeline (Agent Swarm) */}
-                        <div className="bg-black/40 border border-white/5 p-4 rounded flex flex-col md:flex-row items-center gap-4 relative overflow-hidden group hover:border-primary/30 transition-colors">
+                        <div className="bg-surface/40 border border-foreground/5 p-4 rounded flex flex-col md:flex-row items-center gap-4 relative overflow-hidden group hover:border-primary/30 transition-colors">
                             <div className="absolute left-0 top-0 bottom-0 w-1 bg-primary" />
                             <div className="w-32 font-bold text-primary shrink-0">MODEL SWARM</div>
                             <div className="flex-1 grid grid-cols-5 gap-2 w-full text-center">
@@ -95,7 +95,7 @@ export const StarProject = () => {
                         </div>
 
                         {/* Layer 3: Evaluation */}
-                        <div className="bg-black/40 border border-white/5 p-4 rounded flex flex-col md:flex-row items-center gap-4 relative overflow-hidden group hover:border-green-500/30 transition-colors">
+                        <div className="bg-surface/40 border border-foreground/5 p-4 rounded flex flex-col md:flex-row items-center gap-4 relative overflow-hidden group hover:border-green-500/30 transition-colors">
                             <div className="absolute left-0 top-0 bottom-0 w-1 bg-green-500" />
                             <div className="w-32 font-bold text-green-500 shrink-0">MODEL EVAL</div>
                             <div className="flex-1 flex items-center justify-around w-full text-muted-foreground">
@@ -108,7 +108,7 @@ export const StarProject = () => {
                         </div>
 
                         {/* Layer 4: CI/CD Deployment */}
-                        <div className="bg-black/40 border border-white/5 p-4 rounded flex flex-col md:flex-row items-center gap-4 relative overflow-hidden group hover:border-purple-500/30 transition-colors">
+                        <div className="bg-surface/40 border border-foreground/5 p-4 rounded flex flex-col md:flex-row items-center gap-4 relative overflow-hidden group hover:border-purple-500/30 transition-colors">
                             <div className="absolute left-0 top-0 bottom-0 w-1 bg-purple-500" />
                             <div className="w-32 font-bold text-purple-500 shrink-0">DEPLOYMENT</div>
                             <div className="flex-1 flex items-center justify-between w-full">
@@ -136,7 +136,7 @@ export const StarProject = () => {
                         </div>
 
                         {/* Layer 5: Monitoring */}
-                        <div className="bg-black/40 border border-white/5 p-4 rounded flex flex-col md:flex-row items-center gap-4 relative overflow-hidden group hover:border-orange-500/30 transition-colors">
+                        <div className="bg-surface/40 border border-foreground/5 p-4 rounded flex flex-col md:flex-row items-center gap-4 relative overflow-hidden group hover:border-orange-500/30 transition-colors">
                             <div className="absolute left-0 top-0 bottom-0 w-1 bg-orange-500" />
                             <div className="w-32 font-bold text-orange-500 shrink-0">MONITORING</div>
                             <div className="flex-1 flex items-center justify-between w-full">

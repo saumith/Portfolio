@@ -60,25 +60,25 @@ export const ExperienceTimeline = () => {
                         className="group relative"
                     >
                         {/* Holographic Card */}
-                        <div className={`relative overflow-hidden rounded-2xl border border-white/5 bg-black/40 backdrop-blur-xl transition-all duration-500 hover:bg-white/5 ${exp.border}`}>
+                        <div className={`relative overflow-hidden rounded-2xl border border-foreground/5 bg-surface/40 backdrop-blur-xl transition-all duration-500 hover:bg-surface/10 ${exp.border}`}>
 
                             {/* Ambient Gradient Background */}
                             <div className={`absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l ${exp.gradient} opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
 
                             {/* Large Decorative Icon Background */}
-                            <exp.icon className="absolute -right-12 -bottom-12 w-64 h-64 text-white/5 group-hover:text-white/10 transition-colors duration-500 rotate-12" />
+                            <exp.icon className="absolute -right-12 -bottom-12 w-64 h-64 text-foreground/5 group-hover:text-foreground/10 transition-colors duration-500 rotate-12" />
 
                             <div className="relative p-8 md:p-10 z-10 grid md:grid-cols-[300px_1fr] gap-8">
 
                                 {/* Left Column: Role Info */}
                                 <div className="space-y-4">
-                                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs font-mono text-muted-foreground w-fit">
+                                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface/5 border border-foreground/10 text-xs font-mono text-muted-foreground w-fit">
                                         <Calendar className="w-3 h-3" />
                                         {exp.period}
                                     </div>
 
                                     <div>
-                                        <h4 className="text-2xl font-bold text-foreground leading-tight mb-2 group-hover:text-white transition-colors">{exp.role}</h4>
+                                        <h4 className="text-2xl font-bold text-foreground leading-tight mb-2 group-hover:text-primary transition-colors">{exp.role}</h4>
                                         <div className={`flex items-center gap-2 font-mono ${exp.color}`}>
                                             <Building2 className="w-4 h-4" />
                                             <span className="text-lg">{exp.company}</span>
@@ -95,7 +95,7 @@ export const ExperienceTimeline = () => {
 
                                 {/* Right Column: Details */}
                                 <div className="space-y-4 relative">
-                                    <div className="absolute left-[-20px] top-0 bottom-0 w-[1px] bg-white/10 hidden md:block" />
+                                    <div className="absolute left-[-20px] top-0 bottom-0 w-[1px] bg-foreground/10 hidden md:block" />
 
                                     <ul className="space-y-4">
                                         {exp.details.map((detail, i) => (
